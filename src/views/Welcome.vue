@@ -1,15 +1,15 @@
 <template>
   <div class="welcome container">
-    <p>Welcome</p>
+    <p>Welcome to the chatroom</p>
     <div v-if="showLogin">
       <h2>Login</h2>
       <LoginForm @login="enterChat" />
-      <p>Don't have an account yet? <span @click="showLogin = false">Signup</span></p>
+      <p>Don't have an account yet? <span @click="showLogin = false" class="sp">Signup</span></p>
     </div>
     <div v-else>
-      <h2>Sign Up</h2>
+      <h2>Sign Up to the chatroom</h2>
       <SignupForm @signup="enterChat" />
-      <p>Already have an account <span @click="showLogin = true">Login</span></p>
+      <p>Already have an account <span @click="showLogin = true" class="sp">Login</span></p>
     </div>
   </div>
 </template>
@@ -63,7 +63,7 @@ export default {
   margin: 10px auto;
 }
 
-span {
+.sp {
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;

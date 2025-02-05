@@ -1,0 +1,16 @@
+[debug] [2025-02-05T15:40:14.983Z] ----------------------------------------------------------------------
+[debug] [2025-02-05T15:40:14.990Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-02-05T15:40:14.991Z] CLI Version:   13.30.0
+[debug] [2025-02-05T15:40:14.992Z] Platform:      win32
+[debug] [2025-02-05T15:40:14.992Z] Node Version:  v21.6.1
+[debug] [2025-02-05T15:40:14.993Z] Time:          Wed Feb 05 2025 20:40:14 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-02-05T15:40:14.993Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-05T15:40:15.599Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-05T15:40:15.600Z] > authorizing via signed-in user (cvcandwaffles@gmail.com)
+[debug] [2025-02-05T15:40:15.600Z] [iam] checking project composition-63c7f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-02-05T15:40:15.604Z] Checked if tokens are valid: true, expires at: 1738773059431
+[debug] [2025-02-05T15:40:15.604Z] Checked if tokens are valid: true, expires at: 1738773059431
+[debug] [2025-02-05T15:40:15.608Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/composition-63c7f:testIamPermissions [none]
+[debug] [2025-02-05T15:40:15.608Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/composition-63c7f:testIamPermissions x-goog-quota-user=projects/composition-63c7f
+[debug] [2025-02-05T15:40:15.609Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/composition-63c7f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
